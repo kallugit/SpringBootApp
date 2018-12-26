@@ -27,4 +27,7 @@ public class Engine {
 		return price;
 	}
 	
+	public String toString() {
+		return "id = "+ getId() + " engine_type = " + getEngine_type() + " price = " + getPrice();
+	}
 }
